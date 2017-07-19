@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 		<title>CSS Mockup Activity</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">

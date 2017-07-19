@@ -7,6 +7,7 @@
 ******************************************************/
 html, body {
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -53,3 +54,30 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
+
+header {
+	color: white;
+	background: darkorange;
+	font-size: 2.4vw;
+	padding: 2.1vw;
+}
+
+header h1 {
+	margin-top: 0;
+	display: inline;
+
+}
+
+header em {
+	font-size: 1.2vw;
+	padding-left: 30px;
+}
+
+.instructions {
+	border: solid darkorange;
+	color: darkorange;
+}
+
+.pull-left {
+	float: left;
+}
