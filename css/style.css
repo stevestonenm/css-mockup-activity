@@ -55,6 +55,19 @@ body { width: 100%;}
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
 
+section {
+	margin-top: 5%;
+}
+
+section h2 {
+	margin: 0;
+}
+
+img {
+	border: solid gainsboro;
+	max-width: 25%;
+}
+
 header {
 	color: white;
 	background: darkorange;
@@ -70,12 +83,25 @@ header h1 {
 
 header em {
 	font-size: 1.2vw;
-	padding-left: 30px;
+	padding-left: 2vw;
 }
 
 
 .instructions {
 	border: solid darkorange;
 	color: darkorange;
+	padding: 2.5%;
+	margin: 0;
+	font-size: 100%;
 }
+
+.pull-left {
+	float: left;
+}
+
+.pull-right img {
+	float: right;
+}
+
+section 
 
