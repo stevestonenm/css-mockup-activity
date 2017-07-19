@@ -73,11 +73,9 @@ header em {
 	padding-left: 30px;
 }
 
+
 .instructions {
 	border: solid darkorange;
 	color: darkorange;
 }
 
-.pull-left {
-	float: left;
-}
