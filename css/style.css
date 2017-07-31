@@ -55,7 +55,7 @@ body { width: 100%;}
 ******************************************************/
 
 /*****************************************************
-Global Styles
+* Global Styles
  *****************************************************/
 html {
 	font-family: sans-serif;
@@ -80,7 +80,7 @@ ol {
 }
 
 /**************************************************
-Header Styles
+* Header Styles
  **************************************************/
 
 header {
@@ -96,7 +96,7 @@ header h1 {
 }
 
 /*************************************************
-Main Content Styles
+* Main Content Styles
 **************************************************/
 
 section {
@@ -104,11 +104,71 @@ section {
 }
 
 /************************************************
-Footer Styles
+* Footer Styles
  ************************************************/
 
 footer {
 	background: black;
 	color: lightgray;
 	padding: 1rem 0;
+}
+
+/***********************************************
+* Instructions Section Styles
+ **********************************************/
+
+.instructions {
+	color: darkorange;
+	border: 3px solid;
+	padding: 2rem;
+}
+
+.instructions img {
+	width: 250px;
+	height: auto;
+	border: 3px solid lightgray;
+}
+
+/***********************************************
+* Picard Section Styles
+***********************************************/
+
+section:nth-child(2) {
+	background: lightgray;
+	color: #555;
+	line-height: 1.5rem;
+}
+
+img[alt="captain picard"] {
+	width: 300px;
+	height: auto;
+	border: 3px solid white;
+	margin-right: 3rem;
+}
+
+section:nth-child(2) span {
+	color: black;
+	font-style: italic;
+	font-family: serif;
+	font-weight: bold;
+}
+
+/********************************************
+* Skills Section
+********************************************/
+
+section:last-child h2 {
+	color: darkorange;
+	text-align: right;
+}
+
+table {
+	color: white;
+	width: 100%;
+	text-align: left;
+}
+
+th, td {
+	background-color: darkorange;
+	padding: 1rem;
 }
