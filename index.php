@@ -9,7 +9,6 @@
 
 		<title>CSS Mockup Activity</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
